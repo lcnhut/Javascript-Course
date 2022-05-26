@@ -4,7 +4,6 @@ const blackjack = (array) => {
   return (a, b) => {
     currentPoint = a + b;
     let isBust = false;
-    let lastPoint = currentPoint;
     return () => {
       let lastPoint = currentPoint;
       if (!isBust) {
