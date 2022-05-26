@@ -12,8 +12,6 @@ function once(func) {
     if (!isAdd) {
       isAdd = true;
       result = func(x);
-    } else {
-      return result;
     }
     return result;
   };
